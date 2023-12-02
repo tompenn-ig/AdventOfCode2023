@@ -1,0 +1,24 @@
+# Ignore artifacts:
+build
+coverage
+errorShots
+etc
+
+*.png
+*.svg
+*.zip
+*.otf
+*.md
+*.txt
+*.yml
+yarn.lock
+.dockerignore
+.env
+.gitignore
+.prettierignore
+src/serviceWorker.ts
+tsconfig.json
+launch.json
+public\*
+Dockerfile
+jersey-sprites.scss
