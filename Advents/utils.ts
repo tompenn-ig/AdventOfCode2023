@@ -6,3 +6,7 @@ export const importPuzzleInput = async (day: number, part: number): Promise<stri
 export const parseIntoLines = (input: string): string[] => {
   return input.split('\n');
 };
+
+export const writeToFile = async (output: string, day: number, part: number): Promise<void> => {
+  await Bun.write(`./Advents/Day${day}/part${part}/answer.txt`, output);
+};
